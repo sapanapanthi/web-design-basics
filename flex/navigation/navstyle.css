@@ -1,0 +1,25 @@
+.nav-parent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-child{
+    display: flex;
+    gap: 20px;
+    
+    
+}
+.second-child{
+    display: flex;
+    gap: 5px;
+    
+}
+.nav-button{
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    box-sizing: content-box;
+    width: 70px;
+    height: 20px;
+}

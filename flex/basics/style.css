@@ -1,0 +1,22 @@
+.parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-items{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    font-weight: bold;
+    font-size: medium;
+}
+.button-item{
+    border-radius: 35px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    box-sizing: content-box;
+    height: 30px;
+    width: 80px;
+}
