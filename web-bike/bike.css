@@ -1,0 +1,42 @@
+
+
+
+.info-bike{
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 5px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+/* bike icon css goes here with use of grid and its properties */
+.grid-icon{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto auto;
+    row-gap: 30px;
+    background-color: aqua;
+    height: 900pxpx;
+    width: 900px;
+    align-items: center;
+    padding: 20px;
+
+}
+.image-icon{
+    height: 20px;
+    width: 30px;
+}
+.info-spotlight{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bike-image{
+    height: 30px;
+    width: 20px;
+}
+.bike-price{
+    display: flex;
+    justify-content: space-evenly;
+}
