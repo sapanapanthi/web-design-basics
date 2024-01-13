@@ -1,0 +1,17 @@
+.icon-parent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:pink;
+}
+.images{
+    height: 20px;
+    width: 30px;
+    background-color: lightblue;
+} 
+h3{
+    text-align: center;
+}
+.center-item{
+    text-align: center;
+}

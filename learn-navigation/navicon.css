@@ -1,0 +1,88 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+} 
+/* body{
+   background-image: url(https://img.freepik.com/free-photo/online-school-equipment-home_23-2149041149.jpg);
+   
+   background-size: cover;
+   background-position: center;
+} */
+body{
+   font-family: sans-serif;
+}
+.menu-bar{
+   background-color:green;
+   text-align: center;
+}
+.menu-bar ul {
+   display: inline-flex;
+   list-style: none;
+   color: white;
+}
+.menu-bar ul li  {
+   width: 120px;
+   margin: 15px;
+   padding: 15px;
+}
+.menu-bar ul li a {
+   text-decoration:none;
+   color: white;
+
+}
+  .active, .menu-bar ul li :hover {
+   background-color: green;
+   border-radius: 3px;
+  }
+ 
+  .menu-bar .fa-solid{
+   margin-right: 8px;
+    
+  }
+  .sub-menu-1{
+   display: none;
+
+  }
+  .menu-bar ul li:hover .sub-menu-1 {
+   display:block;
+   position: absolute;
+   margin-top: 15px;
+    margin-left: 15px;
+   
+  }
+  /* vetically item le rakhani */
+  .menu-bar ul li:hover .sub-menu-1 ul {
+   display: block;
+   margin: 10px;
+  }
+  .menu-bar ul li:hover .sub-menu-1 ul li  {
+   width: 150px;
+   padding: 10px;
+   border-bottom: 1px dotted #fff;
+   background: transparent;
+   border-radius: 0px;
+   text-align: left;
+  }
+  /* last child ko line delete garna or hatauna */
+  .menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+   border-bottom: none;
+  }
+  /* about to element haru hover garda chnage garuna */
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+   color: #b2ff00;
+
+}
+.fa-solid {
+   float: right;
+}
+.sub-menu-2{
+   display: none;
+}
+.hover-me:hover .sub-menu-2{
+   position:absolute;
+   display: block;
+   margin-top: -40px;
+   margin-left: 140px;
+   background-color: green;
+}
