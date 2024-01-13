@@ -1,0 +1,20 @@
+.container{
+    background-color:aqua;
+    height: 500px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+/* its making box sizing  */
+.item{
+    background-color:red;
+    height: 200px;
+    width: 200px;
+
+}
+/* image icon css */
+.card-icon{
+    height: 20px;
+    width: 20px;
+}
+
