@@ -1,0 +1,89 @@
+
+
+
+.info-bike{
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 5px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+/* bike icon css goes here with use of grid and its properties */
+.grid-icon{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto auto;
+    background-color:aliceblue;
+    gap: 10px;
+    
+}
+.imp-icon{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-icon{
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+    object-fit: contain;
+}
+.info-spotlight{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding-top: 10px;
+    width: 60%;
+    margin: auto;
+    /* background-color: green; */
+    border-bottom: 1px solid black;
+}
+.info-spotlight>div{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.active-spotlight{
+    color:red;
+    border-bottom: 2px solid red;
+}
+.bike-price{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    gap:20px;
+    /* padding-left: 30px;
+    padding-top: 50px;  */
+    padding: 50px 0px 0px 30px;
+
+    
+}
+.bike-tags{
+    border: 1px solid black;
+    border-radius: 7px;
+    /* width: 250px; */
+}
+.bike-image{
+    height: 200px;
+    /* background-color: aqua; */
+    width: 100%;
+    object-fit: contain;
+    /* border-top-left-radius: 7px;
+    border-top-right-radius: 7px; */
+    border-radius: 7px 7px 0 0;
+
+    /* border-radius: 7px; */
+}
+.imp-icon{
+    border: 2px solid gray;
+    height: 100%x;
+    width: 100%;
+}
+.bike-details{
+    border-top: 1px solid black;
+    padding: 10px;
+}
