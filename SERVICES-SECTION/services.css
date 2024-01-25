@@ -1,0 +1,111 @@
+
+*{
+    font-family:'Gill Sans',  sans-serif ;
+}
+.main-parent{
+    padding:0 10%;
+    background-color: lightgray;
+    /* box-sizing: border-box; */
+    /* margin: 0; */
+}
+.head-part {
+    /* background-color: #ffffff; */
+    padding-top: 70px;
+    /* background-color: green; */
+}
+
+.head-part h1 {
+    margin-bottom: -10px;
+}
+
+.four-divparent {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* justify-content: center; */
+    gap: 15px;
+    /* padding: 10%; */
+    padding: 5% 0;
+
+}
+
+
+.left-dash {
+    background-color: pink;
+    /* box-sizing: border-box; */
+    /* border: 1px solid blueviolet; */
+    /* gap:10px; */
+
+}
+
+.right-dash {
+    background-color: blueviolet;
+    /* gap: 20px; */
+
+}
+
+.card-info {
+    /* border: 1px solid rgba(0, 0, 0, 0.3); */
+    display: flex;
+    padding: 20px;
+    /* box-shadow: 4px 4px 24px -4px rgba(0,0,0,0.67); */
+    /* -webkit-box-shadow: 4px 4px 24px -4px rgba(0,0,0,0.67); */
+    box-shadow: -1px 41px 37px -56px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 41px 37px -56px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 41px 37px -56px rgba(0, 0, 0, 0.75);
+    background-color: white;
+    border-radius: 2%;
+
+}
+
+.card-info:hover{
+      box-shadow: 4px 4px 24px -4px rgba(0,0,0,0.67);
+     -webkit-box-shadow: 4px 4px 24px -4px rgba(0,0,0,0.67);
+}
+
+.image-part {
+    background-color: rgb(180, 189, 199);
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+
+.images {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+    box-shadow: 4px 4px 24px -4px rgba(0, 0, 0, 0.67);
+    -webkit-box-shadow: 4px 4px 24px -4px rgba(0, 0, 0, 0.67);
+}
+.para-part{
+    flex: 1;
+    padding: 0 10px;
+    /* background-color:green; */
+}
+.para-part h4 {
+    margin: 0;
+}
+.para-part p {
+    font-size: xx-small;
+}
+
+.footer-part {
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: orange; */
+    gap: 10px;
+    /* padding-left: 0; */
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: xx-small;
+    
+}
+
+.fotter a {
+
+    color: blue;
+    text-decoration: none;
+
+
+}
